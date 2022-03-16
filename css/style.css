@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0 8rem;
+}
+a{
+    text-decoration: none;
+}
+header .left a{
+    font-size: 25px;
+    color: rgb(0, 0, 0)         ;
+    font-weight: bold;
+}
+header .right a{
+    font-size: 19px;
+    font-weight: bold;
+    background: #04204b;
+    color: #fff;
+    padding: 15px 12px;
+    border-radius: 5px;    
+}
+.first{
+    background: url(/Photos/bg-masthead.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.first-1{
+    background-color: rgba(28, 55, 94,0.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.first-1 h1{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.first-2 input {
+    font-size: 25px;
+    padding: 18px 140px 18px 24px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.first-2 a{
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.second-1{
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.second-1 img{
+    width: 50%;
+    height: 100%;
+}
+.second-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+    text-align: left;
+    width: 50%;
+    text-align: center;
+    background-color: #2b78eb48;
+}
+.second-2 h1{
+    color: darkcyan;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+.second-2 p{
+    color: darkorange;
+    font-size: 20px;
+}
+.third img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.third{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    direction: column;  
+    
+}
+.third-1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.third h1{
+    margin: 96px 0 15px 0;
+    color: darkcyan;
+    text-align: center;     
+}
+.third-2{
+    margin: 80px 0 0 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 190px;
+}
+.third-2 img{
+    width: 60%;
+    border-radius: 200px;
+    box-shadow:1px 1px 20px 11px rgba(10, 109, 201, 0.281);
+    
+}
+.third-1 h3{
+    margin: 32px 0;
+}
+.third-1 p{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.fourth{
+    background: url(/Photos/bg-masthead.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+
+
+
+
